@@ -68,6 +68,9 @@ Application mobile de consultation du réseau de transport en commun en temps r�
 npm install
 npm start
 
+Allez dans le fichier src/api/clients.ts et modifier la ligne 4 par :
+const API_URL = 'http://ADDRESSE_IP_SERVEUR:3000';
+
 ---
 
 ## 👤 Comptes de test
